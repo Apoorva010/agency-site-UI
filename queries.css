@@ -1,0 +1,77 @@
+@media (max-width:768px) {}
+
+@media (max-width: 575.98px) {
+    .block-text {
+        font-weight: 800;
+        font-size: 56px;
+        line-height: 64px;
+        letter-spacing: -1px;
+    }
+    .btn-cont,
+    .star-bg,
+    .no {
+        display: none;
+    }
+    .img-list {
+        gap: 3em;
+    }
+    .text-detail {
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: 0px;
+    }
+    .custom-top {
+        margin-top: 0;
+    }
+    .feature-1 {
+        justify-content: center;
+        align-items: center;
+    }
+    .block-work {
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+    .work-card {
+        margin-bottom: 0px;
+    }
+    .star-img {
+        padding-right: 12em;
+    }
+    .girl-image {
+        transform: translate(2%, -59%);
+    }
+    .banner {
+        height: 67em;
+    }
+    .txt-line {
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: 0px;
+    }
+    .faq-section {
+        padding-top: 3em;
+    }
+    .contact-section {
+        background-image: none;
+        background-color: #fce7e1;
+    }
+    .social-icons {
+        justify-content: center !important;
+    }
+    .line-border {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+}
+
+@media(max-width:400px) {
+    .block-text {
+        display: contents;
+    }
+}
